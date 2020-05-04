@@ -20,10 +20,12 @@ namespace FirstBadVersion.FirstBadVersion
                 var isMidPointBad = IsBadVersion(midPoint);
                 if (isMidPointBad)
                 {
+                    // no need to decrement midpoint here as this could be the first bad version
                     high = midPoint;
                 }
                 else
                 {
+                    // Dont need to consider the midpoint since its not bad.
                     low = midPoint + 1;
                 }
             }
