@@ -16,7 +16,8 @@ namespace FirstBadVersion.FirstBadVersion
                 // var midPoint = (low + high) / 2;
 
                 // Best practice is to use this for finding mid-point
-                var midPoint = low + Convert.ToInt32(Math.Floor(Convert.ToDouble((high - low) / 2)));
+                //var midPoint = low + Convert.ToInt32(Math.Floor(Convert.ToDouble((high - low) / 2)));
+                int midPoint = low + (high - low) / 2;
                 var isMidPointBad = IsBadVersion(midPoint);
                 if (isMidPointBad)
                 {
