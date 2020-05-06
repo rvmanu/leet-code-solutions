@@ -1,0 +1,31 @@
+﻿Problem: Number Complement
+Given a positive integer, output its complement number. The complement strategy is to flip the bits of its binary representation.
+
+Example 1:
+Input: 5
+Output: 2
+Explanation: The binary representation of 5 is 101 (no leading zero bits), and its complement is 010. So you need to output 2.
+ 
+Example 2:
+Input: 1
+Output: 0
+Explanation: The binary representation of 1 is 1 (no leading zero bits), and its complement is 0. So you need to output 0.
+
+Note:
+The given integer is guaranteed to fit within the range of a 32-bit signed integer.
+You could assume no leading zero bit in the integer’s binary representation.
+
+Similar Problems:
+https://leetcode.com/problems/complement-of-base-10-integer/
+https://leetcode.com/problems/number-complement/
+
+References:
+https://stackoverflow.com/questions/141525/what-are-bitwise-shift-bit-shift-operators-and-how-do-they-work	(tips and tricks in the post)
+
+number XOR compliment = 1's with same no of bits
+number XOR (1s with same number of bits) = compliment of the number
+(Log of a number with base 2 + 1) gives the number of bits required to represent that number.
+ex: 2^3 = 8; log(base 2) 8 = 3; so no of bits 3 + 1 = 4; 8 in binary 1000;
+
+Get 1s with x number of bits: 2^x - 1 (since 2^x is the smallest number with x+1 number of bits)
+Get 1s with x number of bits: (mask = 0; mask = (mask << 1) | 1)
