@@ -9,3 +9,30 @@ Statement:
 References:
 	How to calculate midpoint for binary search: https://stackoverflow.com/questions/21101110/calculating-midpoint-index-in-binary-search
 	https://leetcode.com/explore/featured/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3316/
+
+Related Problems:
+Find out the pivot point of a rotated sorted array
+
+
+
+
+Solution
+Approach #1 (Linear Scan) [Time Limit Exceeded]
+The straight forward way is to brute force it by doing a linear scan.
+
+Complexity analysis
+Time complexity	 :	O(n). Assume that isBadVersion(version)isBadVersion(version) takes constant time to check if a version is bad. 
+					It takes at most n - 1n−1 checks, therefore the overall time complexity is O(n).
+Space complexity : O(1).
+
+Approach #2 (Binary Search) [Accepted]
+It is not difficult to see that this could be solved using a classic algorithm - Binary search. Let us see how the search space could be halved each time below.
+
+
+Unless you are using a language that does not overflow such as Python, left + rightleft+right could overflow. One way to fix this is to use left + frac(right - left)/2
+If you fall into this subtle overflow bug, you are not alone. Even Jon Bentley's own implementation of binary search had this overflow bug and remained undetected for over twenty years.
+
+
+Complexity analysis
+Time complexity  : O(log n). The search space is halved each time, so the time complexity is O(log n).
+Space complexity : O(1).

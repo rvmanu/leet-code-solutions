@@ -18,3 +18,4 @@ The characters in J are distinct.
 
 Reference: https://leetcode.com/explore/featured/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3317/
 https://softwareengineering.stackexchange.com/questions/264766/efficiency-of-c-dictionaries
+https://stackoverflow.com/questions/183685/c-sharp-set-collection

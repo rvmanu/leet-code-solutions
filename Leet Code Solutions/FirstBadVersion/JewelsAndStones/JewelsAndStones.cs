@@ -18,6 +18,7 @@ namespace FirstBadVersion.JewelsAndStones
             var count = 0;
             for (var j = 0; j < S.Length; j++)
             {
+                //TODO: Use HashSet instead of Dictionary
                 //Dictionary is not the ideal DS for this purpose since we are not fetching the value.
                 //But this is more performant than using nested loops
                 if (charMap.ContainsKey(S[j]))
