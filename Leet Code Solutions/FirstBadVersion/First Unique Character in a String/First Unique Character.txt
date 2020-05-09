@@ -11,7 +11,7 @@ return 2.
 
 Note: You may assume the string contain only lowercase letters.
 
-
+References: https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3320/
 
 Approach 1: Linear time solution
 The best possible solution here could be of a linear time because to ensure that the character is unique you have to check the whole string anyway.
