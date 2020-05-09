@@ -9,6 +9,7 @@ Statement:
 References:
 	How to calculate midpoint for binary search: https://stackoverflow.com/questions/21101110/calculating-midpoint-index-in-binary-search
 	https://leetcode.com/explore/featured/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3316/
+	https://www.youtube.com/watch?v=SiDMFIMldgg
 
 Related Problems:
 Find out the pivot point of a rotated sorted array

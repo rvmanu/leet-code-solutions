@@ -12,5 +12,6 @@ canConstruct("aa", "ab") -> false
 canConstruct("aa", "aab") -> true
 
 Reference: https://leetcode.com/explore/featured/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/3318/
+https://www.youtube.com/watch?v=bYzvVCfbwXM
 
 Observed that the array based solution is faster than dictionary based solution. Why?

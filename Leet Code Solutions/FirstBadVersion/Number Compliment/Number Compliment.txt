@@ -21,6 +21,7 @@ https://leetcode.com/problems/number-complement/
 
 References:
 https://stackoverflow.com/questions/141525/what-are-bitwise-shift-bit-shift-operators-and-how-do-they-work	(tips and tricks in the post)
+https://www.youtube.com/watch?v=LA1BnKiarEQ
 
 number XOR compliment = 1's with same no of bits
 number XOR (1s with same number of bits) = compliment of the number
