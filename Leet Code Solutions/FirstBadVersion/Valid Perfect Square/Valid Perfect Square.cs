@@ -22,13 +22,16 @@ namespace FirstBadVersion.Valid_Perfect_Square
         {
             if (num == 0 || num == 1) return true;
 
+            // starting from low = 2 improves execution time
             var low = 2;
             var high = num;
 
             while (low <= high)
             {
                 var mid = low + (high - low) / 2;
-                if (mid == num / mid)
+
+                // using division instead of multiplication improves execution time
+                if (mid == num / mid)       
                 {
                     return num % mid == 0;
                 }
