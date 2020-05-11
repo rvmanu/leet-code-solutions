@@ -48,7 +48,7 @@ namespace FirstBadVersion.FindJudge
             return -1;
         }
 
-        public int FindJudge(int N, int[][] trust)
+        public int FindJudge2(int N, int[][] trust)
         {
             if (trust.Length == 0 && N == 1) return 1;
 
@@ -86,10 +86,11 @@ namespace FirstBadVersion.FindJudge
             return -1;
         }
 
-        public int FindJudge(int N, int[][] trust)
+        public int FindJudge3(int N, int[][] trust)
         {
             if (trust.Length == 0 && N == 1) return 1;
 
+            // Given that the number will be from 1 to N
             var count = new int[N + 1];
             for (var i = 0; i < trust.Length; i++)
             {
