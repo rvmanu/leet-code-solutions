@@ -19,7 +19,7 @@ All inputs are guaranteed to be non-empty strings.
 References:
 https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/535/week-2-may-8th-may-14th/3329/
 https://www.youtube.com/watch?v=xqsaAhQC6c8
-
+https://stackoverflow.com/questions/39519288/which-is-a-better-implementation-to-implement-a-trie-nodes-children-array-or
 
 
 
