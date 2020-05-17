@@ -133,5 +133,40 @@ namespace FirstBadVersion.Cousins_in_Binary_Tree
             return result;
         }
         #endregion
+
+        #region Pre-Order Traversal along with Depth Calculation (Send parent node reference while caluclating depth)
+        public bool IsCousins3(TreeNode root, int x, int y)
+        {
+            TreeNode xParent = null, yParent = null;
+            var xHeight = GetHeight(root, x, ref xParent);
+            var yHeight = GetHeight(root, y, ref yParent);
+
+            if (xParent == null || yParent == null || xParent == yParent || xParent.val == yParent.val)
+            {
+                return false;
+            }
+
+            Console.WriteLine(xHeight + " " + yHeight);
+
+            return xHeight == yHeight;
+        }
+
+        public int GetHeight(TreeNode node, int value, ref TreeNode parent)
+        {
+            if (node == null)
+            {
+                return int.MinValue;
+            }
+            else if ((node.left != null && node.left.val == value) || (node.right != null && node.right.val == value))
+            {
+                parent = node;
+                return 0;
+            }
+            else
+            {
+                return 1 + Math.Max(GetHeight(node.left, value, ref parent), GetHeight(node.right, value, ref parent));
+            }
+        }
+        #endregion
     }
 }
