@@ -18,3 +18,4 @@ The first node is considered odd, the second node even and so on ...
 References:
 https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/536/week-3-may-15th-may-21st/3331/
 https://leetcode.com/articles/odd-even-linked-list/
+https://www.youtube.com/watch?v=YE9ggKeHeK0
