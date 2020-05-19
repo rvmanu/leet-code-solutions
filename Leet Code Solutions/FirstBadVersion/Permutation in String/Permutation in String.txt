@@ -36,3 +36,4 @@ What about hash table? An array of size 26?
 References:
 https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/536/week-3-may-15th-may-21st/3333/
 https://leetcode.com/articles/short-permutation-in-a-long-string/
+https://www.youtube.com/watch?v=XFh_AoEdOTw

@@ -21,3 +21,4 @@ A two-pointer approach could be helpful here. The idea would be to have one poin
 References:
 https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/528/week-1/3286/
 https://leetcode.com/articles/move-zeroes/
+https://www.youtube.com/watch?v=PNJoyRaIW7U
