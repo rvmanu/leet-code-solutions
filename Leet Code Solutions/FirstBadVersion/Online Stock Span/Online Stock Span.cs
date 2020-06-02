@@ -35,6 +35,7 @@ namespace FirstBadVersion.Online_Stock_Span
                 priceList.Add(price);
 
                 // Maintain the stack in decreasing order of elements to get the next largest element for comparison
+                // No need to maintain the duplicate element in the stack, so <= instead of <
                 while (stack.Count > 0 && priceList[stack.Peek()] <= price)
                 {
                     stack.Pop();
